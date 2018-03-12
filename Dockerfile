@@ -8,10 +8,10 @@ FROM gentoo/stage3-amd64
 RUN mkdir -p /etc/portage/repos.conf
 COPY gentoo.conf /etc/portage/repos.conf/
 RUN emerge-webrsync
-RUN emerge -1 --quiet sys-apps/portage
+FEATURES="-sandbox" RUN emerge -1 --quiet sys-apps/portage
 
 # Git needed for overlays, must be done here
-RUN emerge --quiet dev-vcs/git
+FEATURES="-sandbox" RUN emerge --quiet dev-vcs/git
 
 # Install overlays
 COPY GentooStudio.conf /etc/portage/repos.conf/
@@ -29,6 +29,6 @@ RUN emerge --sync --quiet
 # Bring system up to date with above config files
 # This fails locally because --cap-add=SYS_PTRACE is needed. Use docker run to emerge world
 # Testing on hub.docker.com automated build
-RUN emerge --quiet --update --deep --newuse --autounmask-continue @system @world
+FEATURES="-sandbox" RUN emerge --quiet --update --deep --newuse --autounmask-continue @system @world
 
 # Any other packages needed should be added through a docker run command due to --cap-add=SYS_PTRACE needed
