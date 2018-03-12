@@ -1,0 +1,12 @@
+media-libs/alsa-lib
+media-libs/bio2jack
+media-libs/hydrogen-drumkits
+media-libs/libffado
+media-libs/libgig
+media-libs/liblo
+media-libs/liblscp
+media-libs/libshout
+media-libs/libshout-idjc
+media-libs/suil
+media-libs/zita-convolver
+media-libs/zita-resampler

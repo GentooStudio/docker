@@ -1,0 +1,8 @@
+media-sound/audacious		-gtk
+media-sound/audacity		-vamp
+media-sound/carla		plugins samplers
+media-sound/drumkv1		standalone
+media-sound/jack2		celt classic firewire opus
+media-sound/ladish		-python lash
+media-sound/supercollider	-portaudio emacs server vim
+media-sound/synthv1		standalone

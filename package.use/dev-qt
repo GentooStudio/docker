@@ -1,0 +1,6 @@
+# Demanded by Docker build
+dev-qt/qtnetwork	bindist
+
+# Regular entries
+dev-qt/qtwebkit		printsupport
+

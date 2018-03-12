@@ -1,0 +1,2 @@
+# Why does wpa_supplicant need qt5?
+net-wireless/wpa_supplicant	-qt5

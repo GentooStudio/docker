@@ -1,0 +1,50 @@
+media-sound/cadence		**
+media-sound/hydrogen		**
+media-sound/jackmidiclock	**
+media-sound/ladish		**
+media-sound/luppp		**
+media-sound/sequencer64		**
+
+media-sound/afsp
+media-sound/aliki
+media-sound/alsa-tools
+media-sound/alsa-utils
+media-sound/ambdec
+media-sound/ardour
+media-sound/arpage
+media-sound/audacious
+media-sound/audacity
+media-sound/beast
+media-sound/boodler
+media-sound/bristol
+media-sound/cadence-bin
+media-sound/carla
+media-sound/chuck
+media-sound/drumkv1
+media-sound/fmit
+media-sound/frescobaldi
+media-sound/gigedit
+media-sound/guitarix2
+media-sound/idjc
+media-sound/jack_capture
+media-sound/jack-rack
+media-sound/jack2
+media-sound/jackmixdesk
+media-sound/jamin
+media-sound/japa
+media-sound/linuxsampler
+media-sound/lmms
+media-sound/midicontroller
+media-sound/mididings
+media-sound/musescore
+media-sound/pure-data
+media-sound/qjackctl
+media-sound/qsampler
+media-sound/qsynth
+media-sound/qtractor
+media-sound/rosegarden
+media-sound/rtsynth
+media-sound/sooperlooper
+media-sound/supercollider
+media-sound/synthv1
+media-sound/yoshimi

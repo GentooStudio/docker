@@ -1,0 +1,3 @@
+# Stage3 will not build without this.
+sys-libs/pam	-filecaps
+

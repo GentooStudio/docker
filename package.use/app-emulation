@@ -1,0 +1,2 @@
+#If 64-bit wine is actually needed, we will address it. For now, this allows dssi-vst to compile.
+app-emulation/wine-any abi_x86_32 -abi_x86_64

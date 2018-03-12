@@ -1,0 +1,4 @@
+# Does gpgme need qt5?
+app-crypt/gpgme		-qt5
+# Does pinentry need qt5?
+app-crypt/pinentry	-qt5 gnome-keyring

@@ -1,0 +1,5 @@
+media-libs/gd		fontconfig
+media-libs/harfbuzz	-graphite
+media-libs/liblo	-ipv6
+media-libs/mesa		-video_cards_radeonsi
+media-libs/opus		custom-modes

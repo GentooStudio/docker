@@ -1,0 +1,2 @@
+#Use Gentoo Studio's ebuild to avoid pulling in outdated JACK
+media-libs/bio2jack::gentoo
